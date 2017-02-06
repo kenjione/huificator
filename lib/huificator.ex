@@ -4,7 +4,7 @@ defmodule Huificator do
   @punctuation ~r/[\!\?\.\,]/
 
   @doc """
-    Returns a full huificate version of cyrillic phrase on cyrillic
+    Returns a full huificate version of phrase on cyrillic
 
   ## Examples
       iex> phrase = "Это просто кромешный ад"
