@@ -43,7 +43,8 @@ defmodule Huificator do
       "у" -> "хую"
       "э" -> "хуе"
       "ы" -> "хуи"
-      ___ -> "ху#{vowel}"
+      "й" -> "хуе"
+       _  -> "ху#{vowel}"
     end
   end
 
